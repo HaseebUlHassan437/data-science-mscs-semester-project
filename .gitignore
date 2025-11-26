@@ -1,1 +1,51 @@
-# Will be populated later
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.zip
+heart+disease/
+Projectform_details.txt
+
+# Data files (optional - keep raw data tracked)
+# data/raw/*.data
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# Reports (optional - comment out if you want to track)
+# reports/*.pdf
+# reports/*.docx
