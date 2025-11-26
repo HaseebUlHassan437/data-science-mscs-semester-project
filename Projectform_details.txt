@@ -1,0 +1,20 @@
+Project Title:
+Heart Disease Prediction using Machine Learning
+
+Dataset Source:
+UCI Machine Learning Repository - Heart Disease Dataset (Cleveland)
+(https://archive.ics.uci.edu/dataset/45/heart+disease)
+
+
+Tools & Technologies:
+Programming Language: Python 3.x
+Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+IDE: Jupyter Notebook
+Version Control: Git/GitHub
+
+Work/Responsibilities:
+Leading the entire project independently from data acquisition to model deployment. Responsible for conducting EDA, implementing data wrangling techniques, building multiple ML classification models, maintaining Git repository with regular commits, and preparing the final report with visualizations and insights.
+
+
+deliverables:
+GitHub repository, Jupyter Notebook(s) with complete code, Final report (PDF/Word) with screenshots and explanations, Data visualization files, README.md, requirements.txt, Cleaned datasets, and ML model comparison report.
