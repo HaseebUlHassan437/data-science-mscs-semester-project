@@ -202,7 +202,7 @@ python app.py
 
 ## 🔄 Project Workflow
 
-### 1. Data Loading & Understanding [5 marks]
+### 1. Data Loading & Understanding 
 **Notebook**: `01_data_loading.ipynb`
 
 - Loaded UCI Heart Disease dataset (303 records, 14 features)
