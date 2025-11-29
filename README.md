@@ -26,7 +26,7 @@ A comprehensive data science project implementing machine learning algorithms to
 
 ### Course Information
 - **Course**: CS 591 - Tools & Techniques for Data Science
-- **Institution**: [Your University Name]
+- **Institution**: [Information Technology University Of the Punjab]
 - **Semester**: Fall 2025
 - **Submission Date**: December 7, 2025
 
