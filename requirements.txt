@@ -1,1 +1,21 @@
-# Dependencies will be added as needed
+# Core Data Science Libraries
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+
+# Jupyter Notebook
+jupyter
+notebook
+ipykernel
+
+# Additional utilities
+scipy
+
+# For saving models
+joblib
