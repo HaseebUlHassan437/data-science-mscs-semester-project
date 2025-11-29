@@ -218,7 +218,7 @@ python app.py
 
 ---
 
-### 2. Exploratory Data Analysis [15 marks]
+### 2. Exploratory Data Analysis
 **Notebook**: `02_eda.ipynb`
 
 #### Statistical Analysis
@@ -250,7 +250,7 @@ Top correlations with disease:
 
 ---
 
-### 3. Data Cleaning & Preprocessing [15 marks]
+### 3. Data Cleaning & Preprocessing 
 **Notebook**: `03_data_cleaning.ipynb`
 
 #### Missing Value Handling
@@ -306,7 +306,7 @@ All figures saved in `reports/figures/` as high-resolution PNG files (300 DPI).
 
 ---
 
-### 5. Machine Learning Models [15 marks]
+### 5. Machine Learning Models 
 **Notebook**: `05_ml_models.ipynb`
 
 #### Data Preparation
