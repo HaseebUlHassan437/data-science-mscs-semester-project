@@ -595,6 +595,7 @@ For questions, suggestions, or collaboration:
 - **GitHub Issues**: [Create an issue](https://github.com/HaseebUlHassan437/data-science-mscs-semester-project/issues)
 - **Email**: [mscs25003@itu.edu.pk]
 
+
 ---
 
 ## 🙏 Acknowledgments
@@ -631,6 +632,5 @@ For questions, suggestions, or collaboration:
 
 **Built with ❤️ for CS 591 - Tools & Techniques for Data Science**
 
-*Last Updated: November 29, 2025*
 
 </div>
