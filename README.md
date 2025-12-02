@@ -26,7 +26,7 @@ A comprehensive data science project implementing machine learning algorithms to
 
 ### Course Information
 - **Course**: CS 591 - Tools & Techniques for Data Science
-- **Institution**: [Your University Name]
+- **Institution**: [Information Technology University Of the Punjab]
 - **Semester**: Fall 2025
 - **Submission Date**: December 7, 2025
 
@@ -202,7 +202,7 @@ python app.py
 
 ## 🔄 Project Workflow
 
-### 1. Data Loading & Understanding [5 marks]
+### 1. Data Loading & Understanding 
 **Notebook**: `01_data_loading.ipynb`
 
 - Loaded UCI Heart Disease dataset (303 records, 14 features)
@@ -218,7 +218,7 @@ python app.py
 
 ---
 
-### 2. Exploratory Data Analysis [15 marks]
+### 2. Exploratory Data Analysis
 **Notebook**: `02_eda.ipynb`
 
 #### Statistical Analysis
@@ -250,7 +250,7 @@ Top correlations with disease:
 
 ---
 
-### 3. Data Cleaning & Preprocessing [15 marks]
+### 3. Data Cleaning & Preprocessing 
 **Notebook**: `03_data_cleaning.ipynb`
 
 #### Missing Value Handling
@@ -280,7 +280,7 @@ Created 3 new binary features:
 
 ---
 
-### 4. Data Visualization [15 marks]
+### 4. Data Visualization 
 **Notebook**: `04_visualizations.ipynb`
 
 Created 10 comprehensive visualizations:
@@ -306,7 +306,7 @@ All figures saved in `reports/figures/` as high-resolution PNG files (300 DPI).
 
 ---
 
-### 5. Machine Learning Models [15 marks]
+### 5. Machine Learning Models 
 **Notebook**: `05_ml_models.ipynb`
 
 #### Data Preparation
@@ -370,7 +370,7 @@ Five classification algorithms compared:
 
 ---
 
-### 6. Git Version Control [15 marks]
+### 6. Git Version Control 
 
 #### Repository Management
 - **Platform**: GitHub
@@ -631,6 +631,5 @@ For questions, suggestions, or collaboration:
 ---
 
 **Built with ❤️ for CS 591 - Tools & Techniques for Data Science**
-
 
 </div>
