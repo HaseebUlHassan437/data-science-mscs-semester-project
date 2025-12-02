@@ -280,7 +280,7 @@ Created 3 new binary features:
 
 ---
 
-### 4. Data Visualization [15 marks]
+### 4. Data Visualization 
 **Notebook**: `04_visualizations.ipynb`
 
 Created 10 comprehensive visualizations:
@@ -370,7 +370,7 @@ Five classification algorithms compared:
 
 ---
 
-### 6. Git Version Control [15 marks]
+### 6. Git Version Control 
 
 #### Repository Management
 - **Platform**: GitHub
@@ -630,7 +630,5 @@ For questions, suggestions, or collaboration:
 ---
 
 **Built with ❤️ for CS 591 - Tools & Techniques for Data Science**
-
-*Last Updated: November 29, 2025*
 
 </div>
