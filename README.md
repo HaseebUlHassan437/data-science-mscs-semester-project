@@ -456,6 +456,29 @@ Total commits: 25+
 
 ## 🖥️ Deployment
 
+### 🎯 Interactive Dashboard
+
+A comprehensive web-based dashboard built with Streamlit and Plotly for interactive analysis and predictions.
+
+#### Features
+- **Overview**: Key metrics, distribution charts, demographic analysis
+- **Exploratory Analysis**: Interactive filters, correlation heatmap, scatter plots
+- **Model Insights**: Performance metrics, feature importance, model comparison
+- **Prediction Tool**: Real-time predictions with confidence gauges
+
+#### Access Live Dashboard
+**🔗 [Heart Disease Dashboard - Live on Streamlit Cloud](https://haseebulhassan437-data-science-mscs-semeste-srcdashboard-632hlg.streamlit.app/)**
+
+#### Launch Locally
+```bash
+cd src
+streamlit run dashboard.py
+```
+
+The dashboard will open at `http://localhost:8501`
+
+---
+
 ### Interactive Prediction System
 
 A command-line interface was developed for practical deployment.
@@ -536,11 +559,11 @@ Recommendation: Consult a cardiologist immediately
 - [ ] Include temporal features if longitudinal data available
 
 ### Deployment
-- [ ] Build web interface using Streamlit or Flask
+- [x] Build web interface using Streamlit ✅ (Live on Streamlit Cloud)
 - [ ] Create REST API for integration with hospital systems
 - [ ] Add patient data management database
 - [ ] Implement user authentication and authorization
-- [ ] Deploy on cloud platform (AWS, Azure, GCP)
+- [ ] Deploy additional cloud instances (AWS, Azure, GCP)
 
 ### Data Collection
 - [ ] Expand dataset with more recent patient records
