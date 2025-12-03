@@ -11,7 +11,13 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import joblib
 import sys
+from pathlib import Path
+
+# Ensure package root is on path for relative imports if needed
 sys.path.append('..')
+
+# Base directory (two levels up from this file: repo root)
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Page config
 st.set_page_config(
@@ -32,13 +38,23 @@ st.markdown("""
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/processed/heart_disease_cleaned.csv')
-    return df
+    data_path = BASE_DIR / 'data' / 'processed' / 'heart_disease_cleaned.csv'
+    if not data_path.exists():
+        raise FileNotFoundError(
+            f"Dataset not found at {data_path}.\n"
+            "Include `data/processed/heart_disease_cleaned.csv` in the repository or provide a valid path."
+        )
+    return pd.read_csv(data_path)
 
 @st.cache_resource
 def load_model():
-    model = joblib.load('../models/final_best_model.pkl')
-    return model
+    model_path = BASE_DIR / 'models' / 'final_best_model.pkl'
+    if not model_path.exists():
+        raise FileNotFoundError(
+            f"Model file not found at {model_path}.\n"
+            "Ensure `models/final_best_model.pkl` is present in the repository or update the path."
+        )
+    return joblib.load(model_path)
 
 # Load
 df = load_data()
